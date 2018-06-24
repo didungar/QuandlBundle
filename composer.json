@@ -1,0 +1,19 @@
+{
+    "name": "DidUngar/QuandlBundle",
+    "type": "library",
+    "description": "Bundle for use Quandl's Api in SF.",
+    "authors": [
+        {
+            "name": "Didier Ungar",
+            "email": "didungar@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DidUngarQuandlBundle\\": ""
+        }
+    },
+    "require": {
+        "dannyben/php-quandl": "^0.5.2"
+    }
+}

@@ -1,0 +1,9 @@
+services:
+#    did_ungar_quandl.example:
+#        class: DidUngar\QuandlBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
+
+    didungar_quandl_service:
+        class: DidUngar\QuandlBundle\Services\QuandlService
+        arguments:
+            - '%quandl_api_key%'
