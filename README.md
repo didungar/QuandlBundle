@@ -12,3 +12,17 @@ parameters:
 ```
 You can create one at : https://www.quandl.com/account/api
 
+Edit compsoer.json for adding repo :
+```
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git@github.com:didungar/QuandlBundle.git"
+        }
+    ],
+```
+And require bundle :
+```
+composer require "DidUngar/QuandlBundle"
+```
+
