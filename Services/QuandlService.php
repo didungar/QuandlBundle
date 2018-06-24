@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: didungar
- * Date: 24/06/18
- * Time: 18:53
- */
+namespace DidUngar\QuandlBundle\Services;
 
 /**
  * Class QuandlService
